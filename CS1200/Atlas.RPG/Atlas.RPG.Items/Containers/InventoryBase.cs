@@ -1,4 +1,4 @@
-namespace Atlas.RPG.Items;
+namespace Atlas.RPG.Items.Containers;
 
 public class InventoryBase
 {
@@ -11,7 +11,9 @@ public class InventoryBase
         _contents = new ItemBase[_capacity];
     }
 
-    public virtual bool AddItem(ItemBase item)
+
+    // trouble here
+    public virtual AddResult AddItem(ItemBase item)
     {
         for (int i = 0; i < _capacity; i++)
         {
@@ -21,7 +23,8 @@ public class InventoryBase
                 return true;
             }
         }
-        return false;
+        // return false;
+        return AddResult.Success;
     }
 
     public virtual ItemBase RemoveItem(int index)
