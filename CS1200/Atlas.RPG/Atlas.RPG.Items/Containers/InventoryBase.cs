@@ -1,3 +1,5 @@
+using Atlas.RPG.Items.Items;
+
 namespace Atlas.RPG.Items.Containers;
 
 public class InventoryBase
