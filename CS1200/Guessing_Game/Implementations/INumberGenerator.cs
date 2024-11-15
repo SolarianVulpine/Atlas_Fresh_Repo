@@ -1,3 +1,6 @@
-interface INumberGenerator {
-        void GenerateNumber();
+using GuessingGame;
+
+interface INumberGenerator
+{
+        int GenerateNumber();
 }
