@@ -1,3 +1,5 @@
+using INumberGenerator
+
 //  Generates a random number within a specified range using the Random class. 
 //  It should have a constructor that accepts the minimum and maximum values for the range.
 public class RandomNumberGenerator : INumberGenerator

@@ -1,3 +1,5 @@
+using INumberGenerator
+
 // Prompts the user to enter a number within a specified range.
 // It should have a constructor that accepts the minimum and maximum values for the range.
 public class ConsoleNumberGenerator : INumberGenerator

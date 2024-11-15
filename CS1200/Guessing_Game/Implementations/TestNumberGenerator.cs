@@ -1,3 +1,5 @@
+using INumberGenerator
+
 //  Always returns a fixed number (e.g., 7) for testing purposes.
 public class TestNumberGenerator : INumberGenerator
 {
