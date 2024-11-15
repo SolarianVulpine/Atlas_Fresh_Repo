@@ -1,14 +1,21 @@
 namespace GuessingGame;
+using INumberGenerator;
 
 public class GameManager
 {
-        private Random random = new Random();
+        private INumberGenerator _numberGenerator;
         private int numberToGuess;
         public int GuessCount { get; private set; }
 
+        public GameManager(INumberGenerator numberGenerator)
+        {
+                _numberGenerator = numberGenerator;
+        }
+
+
         public void InitGame()
         {
-                // numberToGuess = random.Next(1, 21);
+                resultNum = 
                 GuessCount = 0;
         }
 
