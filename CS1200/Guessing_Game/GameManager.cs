@@ -15,7 +15,7 @@ public class GameManager
 
         public void InitGame()
         {
-                resultNum = 
+                numberToGuess = 
                 GuessCount = 0;
         }
 
