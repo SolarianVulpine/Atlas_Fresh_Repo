@@ -15,7 +15,13 @@ CS1200/Atlas.RPG/Atlas.RPG.UI/obj
 CS1200/Guessing_Game/bin
 CS1200/Guessing_Game/obj
 
-CS1200/Hangman_Exercise/bin
-CS1200/Hangman_Exercise/obj
+CS1200/Hangman_Exercise/Hangman.UI/bin
+CS1200/Hangman_Exercise/Hangman.UI/obj
+
+CS1200/Hangman_Exercise/Hangman.BLL/bin
+CS1200/Hangman_Exercise/Hangman.BLL/obj
+
+CS1200/Hangman_Exercise/Hangman.Tests/bin
+CS1200/Hangman_Exercise/Hangman.Tests/obj
 
 CS1300/
