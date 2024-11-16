@@ -1,5 +1,5 @@
 namespace GuessingGame;
-using INumberGenerator;
+// using INumberGenerator;
 
 public class GameManager
 {
@@ -15,7 +15,8 @@ public class GameManager
 
         public void InitGame()
         {
-                numberToGuess = 
+                Console.WriteLine("made it");
+                // numberToGuess = 
                 GuessCount = 0;
         }
 

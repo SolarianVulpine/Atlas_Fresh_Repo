@@ -1,5 +1,5 @@
 ﻿using GuessingGame;
-using INumberGenerator;
+// using INumberGenerator;
 
 
 int numberGeneratorChoice;

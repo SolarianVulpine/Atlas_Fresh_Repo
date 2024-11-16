@@ -1,4 +1,4 @@
-using INumberGenerator
+// using INumberGenerator;
 
 // Prompts the user to enter a number within a specified range.
 // It should have a constructor that accepts the minimum and maximum values for the range.
@@ -14,7 +14,7 @@ public class ConsoleNumberGenerator : INumberGenerator
         }
         public int GenerateNumber()
         {
-                Console.Write($"Enter the number to guess ({min}-{max}): ")
+                Console.Write($"Enter the number to guess ({min}-{max}): ");
                 numberToGuess = Console.ReadLine();
 
                 return(numberToGuess);

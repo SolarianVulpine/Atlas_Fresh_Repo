@@ -1,9 +1,9 @@
 using GuessingGame;
 
-namespace INumberGenerator
-{
+// namespace INumberGenerator
+// {
         interface INumberGenerator
         {
                 int GenerateNumber();
         }
-}
+// }
