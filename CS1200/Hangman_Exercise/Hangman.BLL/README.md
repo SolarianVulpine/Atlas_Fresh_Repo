@@ -1,1 +1,0 @@
-A class library containing the logic involved in managing the game state and returning appropriate data to the callers (such as loss, win, correct letter, wrong letter, etc.)
