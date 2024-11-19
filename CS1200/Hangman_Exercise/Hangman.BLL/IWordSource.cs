@@ -1,4 +1,4 @@
-namespace Hangman.Bll.Interfaces;
+namespace Hangman.Bll;
 
 
 public interface IWordSource

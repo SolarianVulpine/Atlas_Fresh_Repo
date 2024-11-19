@@ -1,4 +1,4 @@
-﻿namespace Hangman.BLL.Interfaces;
+﻿namespace Hangman.BLL;
 
 public class ConsoleWordGet : IWordSource
 {
