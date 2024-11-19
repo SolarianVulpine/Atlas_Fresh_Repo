@@ -1,17 +1,16 @@
 ﻿namespace Hangman.BLL;
 
-public class DictionaryWordGet : IWordSource
+public class DictionaryWordGet(string filePath) : IWordSource
 {
-        public string[] _words;
+        public string[] _words = File.ReadAllLines(filePath);
         Random _random = new Random();
-        public DictionaryWordGet(string filePath)
-        {
-                _words = File.ReadAllLines(filePath);
-        }
-        public string GetWord()
+
+    public string GetWord()
         {
                 if (_words.Length == 0)
+                {
                         throw new InvalidOperationException("Dictionary file is empty");
+                }
                 return _words[_random.Next(_words.Length)];
         }
 }

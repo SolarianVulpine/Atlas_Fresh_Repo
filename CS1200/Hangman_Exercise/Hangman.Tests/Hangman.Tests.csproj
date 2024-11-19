@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\Hangman.BLL\Hangman.BLL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hangman.BLL\Hangman.BLL.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
 </Project>

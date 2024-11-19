@@ -1,5 +1,6 @@
-﻿
-namespace Hangman.Bll
+﻿using Hangman.BLL;
+
+namespace Hangman.UI
 {
     public class Program
     {
@@ -7,7 +8,7 @@ namespace Hangman.Bll
         {
 
             PlayGame game = new();
-            game.StartGame();
+            game.startGame();
 
         }
     }

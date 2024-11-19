@@ -1,8 +1,8 @@
-namespace Hangman.Bll;
-
-
-public interface IWordSource
+namespace Hangman.BLL
 {
-        string GetWord();
+        public interface IWordSource
+        {
+                string GetWord();
+        }
 
 }

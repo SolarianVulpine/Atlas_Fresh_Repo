@@ -1,9 +1,7 @@
-// namespace Hangman.Tests;
 
-using Hangman.Bll;
-using Xunit;
+using Hangman.BLL;
 
-namespace xUnit.Tests
+namespace Hangman.Tests
 {
 
     public class UnitTest1

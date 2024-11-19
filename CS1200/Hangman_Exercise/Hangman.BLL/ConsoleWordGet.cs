@@ -1,18 +1,19 @@
-﻿namespace Hangman.BLL;
-
-public class ConsoleWordGet : IWordSource
+namespace Hangman.BLL
 {
-        public string GetWord()
+        public class ConsoleWordGet : IWordSource
         {
-                Console.Clear();
-                Console.Write("Enter the word to guess: ");
-
-                string input = Console.ReadLine();
-                if (string.IsNullorWhiteSpace(input))
+                public string GetWord()
                 {
-                        throw new InvalidOperationException("No word entered");
+                        Console.Clear();
+                        Console.Write("Enter the word to guess: ");
+                        string input = Console.ReadLine();
+                        if (string.IsNullOrWhiteSpace(input))
+                        {
+                                throw new InvalidOperationException("No word entered");
+                        }
+
+                        return (input);
                 }
 
-                return input;
         }
 }
