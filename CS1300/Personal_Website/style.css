@@ -3,6 +3,10 @@
 } */
 
 header {
+        background: url("Images/clouds_header.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
   .block_1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,7 +14,7 @@ header {
     gap: 0px 0px;
 
     .Title h1,
-    .Title h2{
+    .Title h2 {
       grid-area: 1 / 1 / 3 / 2;
       text-align: center;
     }
@@ -35,6 +39,8 @@ header {
 }
 
 body {
+  /* background-color: #ffc792; */
+  background-image: linear-gradient(to bottom right, #81b5e2, #ffc792);
   .block_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,8 +54,11 @@ body {
   .About_Me {
     grid-area: About_Me;
     padding: 5%;
-    background-color: aquamarine;
+    background-color: #81b5e2;
     border-radius: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .Img_1 {
     grid-area: Img_1;
