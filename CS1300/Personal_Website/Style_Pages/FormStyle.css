@@ -1,4 +1,4 @@
-html {
+/* html {
         background-image: linear-gradient(to bottom right, #81b5e2, #ffc792);
         background-color: #81b5e2;
       }
@@ -14,7 +14,7 @@ html {
       
       
       .Title {
-              /* background-color: #81b5e2; */
+              /* background-color: #81b5e2; *
               border-style: double;
               border-color: #477196;
               border-width: 7px;
@@ -81,7 +81,7 @@ html {
       
       .header_links {
         grid-area: links;
-        /* grid-auto-flow: row; */
+        /* grid-auto-flow: row; *
       }
       .header_links ul {
         list-style-type: none;
@@ -104,4 +104,44 @@ html {
       
       .header_links a:hover {
         background-color: #5589b6;
+      } */
+
+      body {
+        font-family: Arial, sans-serif;
       }
+      
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      
