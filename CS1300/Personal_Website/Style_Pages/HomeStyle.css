@@ -12,26 +12,25 @@ header {
   gap: 0px 0px;
 }
 
-
 .Title {
-        /* background-color: #81b5e2; */
-        border-style: double;
-        border-color: #477196;
-        border-width: 7px;
+  /* background-color: #81b5e2; */
+  border-style: double;
+  border-color: #477196;
+  border-width: 7px;
 }
 .Title_Image {
-        background: url("Images/clouds_header.jpg");
-        background-size: 100% auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 15%;
-        mask-image: radial-gradient(
-          circle at center,
-          black 0%,
-          white 30%,
-          transparent 60%
-      );
+  background: url("Images/clouds_header.jpg");
+  background-size: 100% auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15%;
+  mask-image: radial-gradient(
+    circle at center,
+    black 0%,
+    white 30%,
+    transparent 60%
+  );
 }
 
 .Title_Text h1 {
@@ -140,14 +139,49 @@ body {
 }
 
 .Img_1 img {
-        height: 100%;
-        width: 65%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        object-fit: cover;
-        object-position: 50% 75%;
-
+  height: 100%;
+  width: 65%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 75%;
 }
 .Img_2 {
   grid-area: Img_2;
+}
+
+footer {
+  grid-area: Footer;
+  background-color: #477196;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 75px;
+  /* align-items: center; */
+}
+.block_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "Footer";
+}
+.block_3 a {
+  text-align: center;
+  color: #f9f7f3;
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-flow: row nowrap; */
+}
+.block_3 ul {
+  list-style-type: none;
+  background-color: #477196;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.block_3 li {
+  /* flex-direction: row; */
 }

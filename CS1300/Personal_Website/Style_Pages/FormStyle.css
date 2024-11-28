@@ -144,4 +144,20 @@
       button[type="submit"]:hover {
         background-color: #0056b3;
       }
+      footer {
+        grid-area: Footer;
+        background-color: #477196;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 75px;
+      }
+      .block_3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "Footer";
       
+      }
+            
